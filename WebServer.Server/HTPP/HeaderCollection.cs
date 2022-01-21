@@ -1,6 +1,8 @@
-﻿namespace WebServer.Server.HTPP
+﻿using System.Collections;
+
+namespace WebServer.Server.HTPP
 {
-    public class HeaderCollection
+    public class HeaderCollection : IEnumerable<Header>
     {
         private readonly Dictionary<string, Header> Headers = new Dictionary<string, Header>();
 
@@ -12,5 +14,11 @@
 
             this.Headers.Add(name, header);
         }
+
+        public IEnumerator<Header> GetEnumerator()
+            => this.Headers.Values.GetEnumerator();
+
+        IEnumerator IEnumerable.GetEnumerator()
+            => this.GetEnumerator();
     }
 }
