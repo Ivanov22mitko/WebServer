@@ -15,6 +15,11 @@
       "ProjectGuid": "284ae377-da9c-4721-ac73-4bcbfd8c8c63",
       "DisplayName": "WebServer.Demo",
       "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 3
