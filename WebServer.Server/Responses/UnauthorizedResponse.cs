@@ -2,9 +2,9 @@
 
 namespace WebServer.Server.Responses
 {
-    public class UnathorizedResponse : Response
+    public class UnauthorizedResponse : Response
     {
-        public UnathorizedResponse()
+        public UnauthorizedResponse()
             : base(StatusCode.Unauthorized)
         {
         }

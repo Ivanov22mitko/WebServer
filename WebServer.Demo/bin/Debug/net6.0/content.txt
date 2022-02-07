@@ -44,39 +44,28 @@
                 </button>
                 <a href="/" class="navbar-brand">SoftUni Judge</a>
           
-----------------------------------------------------------------------------------------------------
-
-
-
-<!DOCTYPE html>
-<html>
+----------------------------------------------------------------------------------------------------<!DOCTYPE html>
+<html lang="en-US">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0">
+<meta charset="UTF-8"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin /><script>WebFontConfig={google:{families:["Montserrat:400,,600","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Shadows Into Light:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Varela Round:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap"]}};if ( typeof WebFont === "object" && typeof WebFont.load === "function" ) { WebFont.load( WebFontConfig ); }</script><script data-optimized="1" src="https://softuni.org/wp-content/plugins/litespeed-cache/assets/js/webfontloader.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKPMRBN');</script>
 
 
-        <title>Обучение по програмиране - Софтуерен университет</title>
-        <meta name="title" content="Обучение по програмиране - Софтуерен университет" />
-        <meta name="description" content="СофтУни предлага достъпно и качествено обучение по програмиране за всички. Поставете началото на кариерата си като софтуерен инженер още днес!" />
-        <!--
-        Render the sections as comment to prevent Razor Exception
-        
-    <meta name="title" content="Курсове и уроци по програмиране - Софтуерен университет" />
-    <meta name="description" content="СофтУни предлага достъпно и качествено софтуерно образование за всички. Поставете началото на кариерата си като софтуерен инженер още днес!" />
-    <meta name="keywords" content="софтуер, програмиране, уроци, курсове, основи на програмирането, програмиране за начинаещи" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136789199-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        
-    <title>Курсове и уроци по програмиране - Софтуерен университет</title>
+  gtag('config', 'UA-136789199-2');
+</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-        -->
-
-    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
-
-    <link rel="preload" as="font" href="/Content/fonts/redesign/Lato-Black.woff2" crossorigin="anonymous">
-<link rel="preload" as="font" href="/Content/fonts/redesign/Lato-Regular.woff2" crossorigin="anonymous">
-<link rel="preload" as="font" href="/Content/fonts/redesign/Lato-Bold.woff2" crossorigin="anonymous">
-<link rel="preload" as="font" href="/Content/fonts/redesign/Lato-Light.woff2" crossorigin="anonymous">
-<link rel="preload" as="font" href="/Content/fonts/redesign/Lato-Medium.woff2" crossorigin="anonymous">
-<link rel="preload" as="font" href="/Content/fonts/redesign/Lato-Heavy.woff2" crossorigin="anonymous">
-<link rel="preload" as="font" href="/Content/fonts/redesign/Montserrat-Bold.woff
+<link media="screen" href="https://softuni.org/wp-content/cache/autoptimize/css/autoptimize_a79aac1b60398593101c
