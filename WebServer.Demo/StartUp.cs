@@ -78,8 +78,8 @@ public class StartUp
         var bodyText = "";
 
         var usernameMatches = request.Form["Username"] == StartUp.Username;
-        var passwordMatches = request.Form["Password"].Trim('\0') == StartUp.Password;
-        //Password values filled with \0 - reason unknown
+        var passwordMatches = request.Form["Password"] == StartUp.Password;
+
         if (usernameMatches && passwordMatches)
         {
             request.Session[Session.SessionUserKey] = "MyUserId";

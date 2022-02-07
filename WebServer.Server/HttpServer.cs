@@ -73,6 +73,13 @@ namespace WebServer.Server
         {
             var responseBytes = Encoding.UTF8.GetBytes(response.ToString());
 
+            if (response.FileContent != null)
+            {
+                responseBytes = responseBytes
+                    .Concat(response.FileContent)
+                    .ToArray();
+            }
+
             await networkStream.WriteAsync(responseBytes);
         }
 
@@ -96,10 +103,10 @@ namespace WebServer.Server
                     throw new InvalidOperationException("Request is too large.");
                 }
                 
-                requestBuilder.Append(Encoding.UTF8.GetString(buffer, 0, bufferLength));
+                requestBuilder.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
             } while (networkStream.DataAvailable);
 
-            return requestBuilder.ToString();
+            return requestBuilder.ToString().Trim();
         }
 
         private static void AddSession(Request request, Response response)

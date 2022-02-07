@@ -22,7 +22,7 @@ namespace WebServer.Server.HTPP
             this.Value = value;
         }
 
-        public string Name { get; set; }
+        public string Name { get; init; }
 
         public string Value { get; set; }
 
