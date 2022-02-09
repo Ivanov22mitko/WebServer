@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using System.Web;
+using WebServer.Demo.Models;
 using WebServer.Server.Controllers;
 using WebServer.Server.HTPP;
 
@@ -24,15 +25,16 @@ namespace WebServer.Demo.Controllers
 
         public Response HtmlFormPost()
         {
-            string formData = string.Empty;
+            var name = this.Request.Form["Name"];
+            var age = this.Request.Form["Age"];
 
-            foreach (var (key, value) in this.Request.Form)
+            var model = new FormViewModel()
             {
-                formData += $"{key} - {value}";
-                formData += Environment.NewLine;
-            }
+                Name = name,
+                Age = int.Parse(age)
+            };
 
-            return Text(formData);
+            return View(model);
         }
 
         public Response Content() => View();

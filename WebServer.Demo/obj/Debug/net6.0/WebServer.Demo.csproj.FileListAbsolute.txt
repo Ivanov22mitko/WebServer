@@ -37,3 +37,4 @@ C:\Users\User\Desktop\Software University\Web\Web Basics\WebServer\WebServer.Dem
 C:\Users\User\Desktop\Software University\Web\Web Basics\WebServer\WebServer.Demo\obj\Debug\net6.0\ref\WebServer.Demo.dll
 C:\Users\User\Desktop\Software University\Web\Web Basics\WebServer\WebServer.Demo\obj\Debug\net6.0\WebServer.Demo.pdb
 C:\Users\User\Desktop\Software University\Web\Web Basics\WebServer\WebServer.Demo\obj\Debug\net6.0\WebServer.Demo.genruntimeconfig.cache
+C:\Users\User\Desktop\Software University\Web\Web Basics\WebServer\WebServer.Demo\bin\Debug\net6.0\Views\Home\HtmlFormPost.cshtml
