@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\HTTP Protocol\\WebServer\\WebServer.Server\\WebServer.Server.csproj": {}
+    "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\WebServer\\WebServer.Server\\WebServer.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\HTTP Protocol\\WebServer\\WebServer.Server\\WebServer.Server.csproj": {
+    "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\WebServer\\WebServer.Server\\WebServer.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\HTTP Protocol\\WebServer\\WebServer.Server\\WebServer.Server.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\WebServer\\WebServer.Server\\WebServer.Server.csproj",
         "projectName": "WebServer.Server",
-        "projectPath": "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\HTTP Protocol\\WebServer\\WebServer.Server\\WebServer.Server.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\WebServer\\WebServer.Server\\WebServer.Server.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\HTTP Protocol\\WebServer\\WebServer.Server\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Software University\\Web\\Web Basics\\WebServer\\WebServer.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

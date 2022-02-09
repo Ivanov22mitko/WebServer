@@ -11,4 +11,16 @@
     <ProjectReference Include="..\WebServer.Server\WebServer.Server.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Views\Home\Content.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Views\Home\Html.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Views\Users\Login.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

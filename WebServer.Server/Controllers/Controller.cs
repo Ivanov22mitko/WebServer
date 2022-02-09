@@ -1,4 +1,5 @@
-﻿using WebServer.Server.HTPP;
+﻿using System.Runtime.CompilerServices;
+using WebServer.Server.HTPP;
 using WebServer.Server.Responses;
 
 namespace WebServer.Server.Controllers
@@ -28,7 +29,14 @@ namespace WebServer.Server.Controllers
 
             return response;
         }
-        
+
+        protected Response View([CallerMemberName] string viewName = "")
+            => new ViewResponse(viewName, this.GetControllerName());
+
+        private string GetControllerName()
+            => this.GetType().Name
+            .Replace(nameof(Controller), string.Empty);
+
         protected Response BadRequest() => new BadRequestResponse();
         
         protected Response Unauthorised(string text) => new UnauthorizedResponse();
